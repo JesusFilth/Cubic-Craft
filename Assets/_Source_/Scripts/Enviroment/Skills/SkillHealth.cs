@@ -1,0 +1,19 @@
+﻿using Source.Scripts.Characters.Player;
+
+namespace Source.Scripts.Enviroment.Skills
+{
+    public class SkillHealth : SkillStratigy
+    {
+        private const int MaxValue = 1;
+
+        public override void AddProperty(PlayerStats stat)
+        {
+            stat.AddLife(MaxValue);
+        }
+
+        public override void SetValue(float value)
+        {
+            base.SetValue(MaxValue);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0549e84e78c14245838c72602ea2da3, type: 3}
+  m_Name: MeneralIconSetting
+  m_EditorClassIdentifier: 
+  _mineralIcons:
+  - {fileID: 11400000, guid: f474ba3017118f948acd9ec1ff853474, type: 2}
+  - {fileID: 11400000, guid: 06c9957de2d07c84f83523f5d7abd22e, type: 2}
+  - {fileID: 11400000, guid: 77915ebe62aa36549b4d6bd943631cbc, type: 2}

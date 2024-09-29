@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a40fe4768bbfc4a9456e9bb579f6f5, type: 3}
+  m_Name: Level 4
+  m_EditorClassIdentifier: 
+  _name: 
+  _needStars: 10
+  _icon: {fileID: 21300000, guid: f18f67f667a5f7e46b2436bffae1812f, type: 3}
+  _levelMap: {fileID: 5315771354305416841, guid: 65684d6d866c88c42aa71f1aaa883ffc, type: 3}
+  _isEndGame: 0
+  _mods:
+  - _type: 0
+    _goldPrise: 650
+    _oreForceResistance: 2.6
+    _oreMaxProgress: 29
+    _buildForceResistance: 2.6
+    _buildMaxProgress: 29
+    _enemys:
+    - _prefab: {fileID: 4066281133265425814, guid: e7804b771f86c914899eb6ee52ace8f1, type: 3}
+      _weight: 100
+    _enemyChanceSpawn: 40
+    _enemyDelaySpawn: 25
+    _enemyCapasityPool: 3
+    _improveEnemyStats: 9
+    _items:
+    - _prefab: {fileID: 8691077463494657411, guid: 7445a5f9b2c0aa84bba269f1b617d77b, type: 3}
+      _weight: 80.7
+    - _prefab: {fileID: 624935185283745233, guid: 6b302c5b55f62924a9b02c34cdafcced, type: 3}
+      _weight: 59.6
+    - _prefab: {fileID: 9214879311747171075, guid: 0e27f4a10346b724f96f3d7c1b0d7ad8, type: 3}
+      _weight: 43.6
+    - _prefab: {fileID: 4423133815549990380, guid: d29cad7d3e1fb3e42bb58bcd8e9e1cd3, type: 3}
+      _weight: 25.7
+    _itemSpawnCount: 5
+    _itemCapasityPool: 10
+    _maxValueSkill: 2
+    _bombDelay: 1000
+    _bombChance: 0
+    _bombMarkerDalay: 3
+  - _type: 1
+    _goldPrise: 950
+    _oreForceResistance: 3.2
+    _oreMaxProgress: 36
+    _buildForceResistance: 3.2
+    _buildMaxProgress: 36
+    _enemys:
+    - _prefab: {fileID: 4066281133265425814, guid: e7804b771f86c914899eb6ee52ace8f1, type: 3}
+      _weight: 80.2
+    - _prefab: {fileID: 8647285987415132612, guid: 32aa9698b87168a448ae95f0486b1e2a, type: 3}
+      _weight: 25.3
+    _enemyChanceSpawn: 50
+    _enemyDelaySpawn: 30
+    _enemyCapasityPool: 10
+    _improveEnemyStats: 10
+    _items:
+    - _prefab: {fileID: 8691077463494657411, guid: 7445a5f9b2c0aa84bba269f1b617d77b, type: 3}
+      _weight: 81.6
+    - _prefab: {fileID: 624935185283745233, guid: 6b302c5b55f62924a9b02c34cdafcced, type: 3}
+      _weight: 68.1
+    - _prefab: {fileID: 1333701313852627076, guid: 8f455dfbd70e9ea438954d175c507cf7, type: 3}
+      _weight: 41.4
+    - _prefab: {fileID: 9214879311747171075, guid: 0e27f4a10346b724f96f3d7c1b0d7ad8, type: 3}
+      _weight: 40.5
+    - _prefab: {fileID: 4423133815549990380, guid: d29cad7d3e1fb3e42bb58bcd8e9e1cd3, type: 3}
+      _weight: 25.7
+    - _prefab: {fileID: 4423133815549990380, guid: 72a279629bcb68a428d375b2f2413e5e, type: 3}
+      _weight: 25.7
+    _itemSpawnCount: 10
+    _itemCapasityPool: 10
+    _maxValueSkill: 2
+    _bombDelay: 10000
+    _bombChance: 0
+    _bombMarkerDalay: 3
+  - _type: 2
+    _goldPrise: 1500
+    _oreForceResistance: 4.3
+    _oreMaxProgress: 47
+    _buildForceResistance: 4.3
+    _buildMaxProgress: 47
+    _enemys:
+    - _prefab: {fileID: 4066281133265425814, guid: e7804b771f86c914899eb6ee52ace8f1, type: 3}
+      _weight: 80.9
+    - _prefab: {fileID: 8647285987415132612, guid: 32aa9698b87168a448ae95f0486b1e2a, type: 3}
+      _weight: 60.3
+    - _prefab: {fileID: 4066281133265425814, guid: 91679b75f0a6656409a7545a7f826824, type: 3}
+      _weight: 21.3
+    _enemyChanceSpawn: 60
+    _enemyDelaySpawn: 25
+    _enemyCapasityPool: 10
+    _improveEnemyStats: 12
+    _items:
+    - _prefab: {fileID: 8691077463494657411, guid: 7445a5f9b2c0aa84bba269f1b617d77b, type: 3}
+      _weight: 81.6
+    - _prefab: {fileID: 624935185283745233, guid: 6b302c5b55f62924a9b02c34cdafcced, type: 3}
+      _weight: 74.8
+    - _prefab: {fileID: 1333701313852627076, guid: 8f455dfbd70e9ea438954d175c507cf7, type: 3}
+      _weight: 62.5
+    - _prefab: {fileID: 7133776861385792239, guid: bc2cbcddad2d90b4d81a738c5da66cf9, type: 3}
+      _weight: 47.7
+    - _prefab: {fileID: 9214879311747171075, guid: 0e27f4a10346b724f96f3d7c1b0d7ad8, type: 3}
+      _weight: 35.1
+    - _prefab: {fileID: 4423133815549990380, guid: d29cad7d3e1fb3e42bb58bcd8e9e1cd3, type: 3}
+      _weight: 25.7
+    - _prefab: {fileID: 4423133815549990380, guid: 72a279629bcb68a428d375b2f2413e5e, type: 3}
+      _weight: 25.7
+    _itemSpawnCount: 20
+    _itemCapasityPool: 15
+    _maxValueSkill: 3
+    _bombDelay: 20
+    _bombChance: 75
+    _bombMarkerDalay: 2

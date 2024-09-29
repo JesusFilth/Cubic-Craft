@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40650df0bbf58cb4aa3465f46b92a3a3, type: 3}
+  m_Name: MineralOreSettings
+  m_EditorClassIdentifier: 
+  _mineralOre: {fileID: 32202585194974470, guid: 71e5f78ac9ea7644b997decdf4648fb9, type: 3}
+  _mineralOreSettings:
+  - Type: 0
+    SizeType: 0
+    Model: {fileID: 5590867647848784496, guid: 49571395364276b4981490ec1d1410b3, type: 3}
+  - Type: 0
+    SizeType: 1
+    Model: {fileID: 7757734920402194552, guid: 1e56d8660cd13d444b6b913c1c61fe00, type: 3}
+  - Type: 0
+    SizeType: 2
+    Model: {fileID: 4019574815749663738, guid: 0f8b59a76d6cc684ca7f4a545ba540a9, type: 3}
+  - Type: 1
+    SizeType: 0
+    Model: {fileID: 5417645310164318224, guid: 99f1847dcd6f05b40835561714fed0c6, type: 3}
+  - Type: 1
+    SizeType: 1
+    Model: {fileID: 7937188349987089573, guid: c0fd8d997507ea444bd9fb2b98d947fd, type: 3}
+  - Type: 1
+    SizeType: 2
+    Model: {fileID: 7128267134758152514, guid: e20d5ce2dcaecdd4b9f23f337d3005e0, type: 3}
+  - Type: 2
+    SizeType: 0
+    Model: {fileID: 3306066714510484875, guid: ea87eeb5e3117964eaf38e0d8048089a, type: 3}
+  - Type: 2
+    SizeType: 1
+    Model: {fileID: 4769178172044173062, guid: 7803c8195d3b97646b70de8403fde566, type: 3}
+  - Type: 2
+    SizeType: 2
+    Model: {fileID: 5114702504495081645, guid: 8229e3d63d1623b48a3a8bd4337ef96c, type: 3}
+  mineralSizes:
+  - Type: 0
+    MinCount: 4
+    MaxCount: 5
+  - Type: 1
+    MinCount: 5
+    MaxCount: 10
+  - Type: 2
+    MinCount: 15
+    MaxCount: 20
